@@ -6,7 +6,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace TimeTracker
+namespace TimeTracker.Db
 {
     public class DataCommand
     {

@@ -108,9 +108,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Const.cs" />
-    <Compile Include="DataCommand.cs" />
+    <Compile Include="Db\DatabaseInterface.cs" />
+    <Compile Include="Db\DataCommand.cs" />
     <Compile Include="DateTimeExtensions.cs" />
-    <Compile Include="WrappedSqlException.cs" />
+    <Compile Include="Db\WrappedSqlException.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

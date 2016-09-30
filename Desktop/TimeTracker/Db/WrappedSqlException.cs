@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.Data.SQLite;
 using System.Linq;
 
-namespace TimeTracker
+namespace TimeTracker.Db
 {
     public class WrappedSqliteException : Exception
     {
